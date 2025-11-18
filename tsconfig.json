@@ -1,0 +1,14 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "module": "es2020",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "baseUrl": "./",
+    "paths": {}
+  }
+}

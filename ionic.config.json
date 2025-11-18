@@ -1,0 +1,14 @@
+{
+  "name": "gasto-facil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "cli": {
+    "defaultBrowser": "chrome",
+    "serve": {
+      "host": "localhost",
+      "port": 8100
+    }
+  }
+}

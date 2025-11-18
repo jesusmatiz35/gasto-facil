@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Configuración</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="limit-card">
+    <div class="limit-title">Límite de Gasto</div>
+    <div class="limit-amount">\${{ limit | number:'1.0-0' }}</div>
+  </div>
+
+  <ion-item>
+    <ion-label position="stacked">Nuevo límite</ion-label>
+    <ion-input type="number" [(ngModel)]="limit"></ion-input>
+  </ion-item>
+  <ion-button expand="block" (click)="saveLimit()">Guardar límite</ion-button>
+
+  <ion-item lines="none">
+    <ion-label>Notificaciones</ion-label>
+    <ion-toggle slot="end" [(ngModel)]="notifications" (ionChange)="toggleNotifications()"></ion-toggle>
+  </ion-item>
+</ion-content>
