@@ -7,3 +7,8 @@
 body {
   background: #f7f7f7;
 }
+
+:root {
+  --ion-background-color: #f7ffab; /* Color nuevo */
+  --ion-text-color: #43a5a0;       /* (opcional) texto legible */
+}
