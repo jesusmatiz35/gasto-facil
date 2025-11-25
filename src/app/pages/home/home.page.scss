@@ -5,12 +5,28 @@
   text-align: center;
   margin-bottom: 20px;
   background: #fff;
+  margin: 10% 5% 25% 5%;
+}
+.btn {
+  border-radius: 12px;
+  font-weight: 600;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  width: 90%;
+  height: 56px;
+  margin-bottom: 10px;
 }
 .balance-title {
   font-weight: 700;
   margin-bottom: 8px;
 }
 .balance-amount {
-  font-size: 28px;
+  font-size: 3.5rem;
   font-weight: 700;
+}
+.position-bottom {
+  position: absolute;
+  bottom: 20px;
+  left: 5%;
+  right: 5%;
 }
