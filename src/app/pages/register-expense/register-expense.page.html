@@ -13,7 +13,7 @@
 </ion-header>
 
 <ion-content class="ion-padding">
-  <ion-item>
+  <ion-item class="margin-top">
     <ion-label position="stacked">Monto</ion-label>
     <ion-input type="number" [(ngModel)]="amount" placeholder="0"></ion-input>
   </ion-item>
@@ -35,5 +35,5 @@
     <ion-textarea [(ngModel)]="description" rows="4"></ion-textarea>
   </ion-item>
 
-  <ion-button expand="block" color="primary" (click)="guardar()">Guardar</ion-button>
+  <ion-button expand="block" color="primary btn" (click)="guardar()">Guardar</ion-button>
 </ion-content>
